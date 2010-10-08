@@ -66,6 +66,7 @@ public enum Sound {
     }
 
     public void play() {
+        // XXX consider tips in: jar:https://issues.apache.org/bugzilla/attachment.cgi?id=24902!/PlaySounds.java
         clip.start();
     }
 
